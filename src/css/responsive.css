@@ -1,0 +1,167 @@
+@media(max-width: 795px){
+    header .container{
+        padding: 1.2rem ;
+        
+    }
+
+    header .container .logo img{
+        width: 50%;
+        height: auto;
+    }
+
+    header .container ul{
+        gap: 1rem;
+        padding: 0;
+    }
+
+    header .container ul li a{
+        font-size: 0.7rem;
+       
+    }
+    
+    
+    
+    .intro .container {
+        background: url(../imagens/bg-curvy-mobile.svg) no-repeat bottom;
+        background-size: contain;
+        background-color: var(--dark-blue-intro-email);
+        width: 100%;    
+    }
+    
+    .intro .container .inf-intro{
+        margin: 0;
+    }
+
+    .intro .container .inf-intro h2{
+        max-width: 20rem;
+        font-size: 1.5rem;
+        
+        
+    }
+
+    .intro .container .inf-intro p{
+        font-size: 0.9rem;
+        max-width: 19rem;
+       
+    }
+
+    .access .container {
+        margin-top: 10rem;
+    }
+    
+    .access .container .services{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+       
+    }
+
+    .access .container .services h3{
+        font-size: 1rem;
+    }
+
+    .access .container .services, .securyti, .collaboration, .files p{
+        max-width: 17rem;
+    }
+
+   
+
+    .productive .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        
+    }
+    
+    .productive .container .productive-info h2{
+        font-size: 1rem;
+        margin-top: 2rem;
+        
+    }
+
+    .productive .container .productive-info p{
+        font-size: 0.75rem;
+        max-width: 17.5rem;
+    
+    }
+
+    article .container{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    article .container .redes{
+        margin-left: 0;
+    }
+
+    article .container .redes p{
+        font-size: 0.65rem;
+    }
+
+    article .container .cadastro .container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cadastro .container .cadastro-email h2{
+        font-size: 2rem;
+    }
+
+    .cadastro .container .cadastro-email p{
+       font-size: 1.4rem;
+       
+    }
+
+    .cadastro .container .cadastro-email form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cadastro .container .cadastro-email form input{
+        width: 100%;
+        height: 3.5rem;
+    }
+    .cadastro .container .cadastro-email form button{
+        width: 100%;
+        height: 3.5rem;
+        margin-top: 1rem;
+    }
+
+  
+
+   
+    footer .container nav .loc{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container nav .loc .inf{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container nav .loc .inf .inf-loc{
+        max-width: 16rem;
+    }
+
+    footer .container nav .loc .nav{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    footer .container nav .loc .redes-sociais{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+
+  
+}
+
+
