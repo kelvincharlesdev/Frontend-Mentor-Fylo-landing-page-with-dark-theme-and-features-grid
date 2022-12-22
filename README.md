@@ -14,13 +14,15 @@
     •	Design responsivo
 
 
+
 ## Design
 
 
-### video de Funcionalidade
-   <video src="src/design/Fylo.mp4" controls muted loop> 
+## video de Funcionalidade
+   <video src="src/design/fylo.mp4" controls muted loop></video>
+
 
 ## Autor
  GitHub: <a href="https://github.com/kelvincharlesdev">Kelvincharlesdev</a>  
 FrontEndMentor: <a href="https://www.frontendmentor.io/profile/kelvincharlesdev">@kelvincharlesdev</a>  
-LinkedIn: <a href="https://www.linkedin.com/in/kelvin-charles/"> Kelvin Charles Cruz </a>
+LinkedIn: <a href="https://www.linkedin.com/in/kelvin-charles/"> Kelvin Charles Cruz </a> 
