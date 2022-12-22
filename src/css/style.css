@@ -42,6 +42,7 @@ header .container ul {
 header .container ul li a {
   font-family: "Raleway", sans-serif;
   color: var(--white);
+  font-size: 1.5rem;
 }
 
 header .container ul li a:hover {
@@ -56,14 +57,14 @@ main {
   text-align: center;
 }
 .intro {
-  background: url(../imagens/bg-curvy-desktop.svg) no-repeat bottom;
-  background-size: contain;
-  background-color: var(--dark-blue-intro-email);
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url(../imagens/bg-curvy-desktop.svg) no-repeat bottom;
+  background-size: contain;
+  background-color: var(--dark-blue-intro-email);
 }
 
 .intro .container .inf-intro {
@@ -71,7 +72,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 18rem;
 }
 
 .intro .container .ilustration-intro {
@@ -89,22 +90,23 @@ main {
 .intro .container .inf-intro h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
-  max-width: 50rem;
+  font-size: 3rem;
+  max-width: 55rem;
   color: var(--white);
   margin-top: 3rem;
 }
 
 .intro .container .inf-intro p {
   color: var(--white);
-  max-width: 30rem;
+  max-width: 45rem;
   margin-top: 3rem;
+  font-size: 1.5rem;
 }
 
 .intro .container .inf-intro .btn {
   background: linear-gradient(to right, var(--cyan-action), var(--blue-action));
-  width: 14rem;
-  height: 3rem;
+  width: 20rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +116,7 @@ main {
 
 .intro .container .inf-intro .btn a {
   color: var(--white);
+  font-size: 1.3rem;
 }
 
 .intro .container .inf-intro .btn:hover {
@@ -124,33 +127,32 @@ main {
 .access .container .services {
   display: flex;
   align-items: center;
-  gap: 10rem;
+  gap: 20rem;
 }
 
 .access .container .services h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: var(--white);
-  margin-top: 1.5rem;
+  margin-top: 3rem;
+  font-size: 1.8rem;
 }
 
 .access .container .services p {
   color: var(--white);
-  font-size: 0.7rem;
-  max-width: 19rem;
+  font-size: 1rem;
+  max-width: 25rem;
   margin: 1rem 0 5rem 0;
 }
 
 .access .container .services .securyti p {
-  max-width: 20.5rem;
+  max-width: 28rem;
 }
-
+.access .container .services .collaboration p {
+  max-width: 26rem;
+}
 .access .container .services .files h3 {
   margin-top: 2rem;
-}
-
-.access .container .services .collaboration p {
-  max-width: 19rem;
 }
 
 .productive .container {
@@ -178,20 +180,21 @@ main {
   color: var(--white);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
-  max-width: 20rem;
+  font-size: 2.5rem;
+  max-width: 22rem;
 }
 
 .productive .container .productive-info p {
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
 }
 
 .productive .container .productive-info a {
   color: var(--cyan-action);
   border-bottom: 1px solid var(--cyan-action);
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   align-self: flex-start;
@@ -224,7 +227,8 @@ article .container .redes {
 
 article .container .redes p {
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  max-width: 33rem;
 }
 
 article .container .redes .rede-profile {
@@ -235,16 +239,16 @@ article .container .redes .rede-profile {
 
 article .container .redes .rede-profile img {
   border-radius: 50%;
-  max-width: 2.5rem;
+  max-width: 3rem;
 }
 
 article .container .redes .rede-profile .rede-profile-info h4 {
   color: var(--white);
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 article .container .redes .rede-profile .rede-profile-info p {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   margin-top: 0.5rem;
 }
 
@@ -255,66 +259,64 @@ article .container .redes .rede-profile .rede-profile-info p {
   );
   width: 100%;
   margin-top: 10rem;
-  padding: 0 3rem;
 }
 
 .cadastro .container {
+  text-align: center;
+  background-color: var(--dark-blue-main);
+  padding: 2rem;
+  box-shadow: 1px -1px 15px var(--dark-blue-footer);
+  border-radius: 0.5rem;
+  max-width: 40%;
+}
+
+.cadastro .container .cadastro-inf {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  background-image: linear-gradient(
-    var(--dark-blue-main) 60%,
-    var(--dark-blue-footer) 40%
-  );
 }
 
-.cadastro .container .cadastro-email {
-  background-color: var(--dark-blue-main);
-  padding: 1.5rem;
-  box-shadow: 1px -1px 15px var(--dark-blue-footer);
-  border-radius: 0.5rem;
-}
-
-.cadastro .container .cadastro-email h2 {
+.cadastro .container .cadastro-inf h2 {
   color: var(--white);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 2rem;
 }
 
-.cadastro .container .cadastro-email p {
+.cadastro .container p {
   color: var(--white);
-  font-size: 0.8rem;
-  max-width: 37rem;
+  font-size: 1rem;
+  max-width: 45rem;
   margin-top: 1rem;
 }
-.cadastro .container .cadastro-email form {
+.cadastro .container form {
   margin-top: 2rem;
   display: flex;
   gap: 1rem;
+  padding: 1rem;
 }
 
-.cadastro .container .cadastro-email form input {
+.cadastro .container form input {
   width: 60%;
-  height: 2.5rem;
+  height: 3rem;
   border-radius: 50px;
   border: none;
 }
 
-.cadastro .container .cadastro-email form input::placeholder {
+.cadastro .container form input::placeholder {
   padding-left: 1rem;
   font-size: 0.8rem;
   color: #e2d8d8;
 }
 
-.cadastro .container .cadastro-email form input:focus-visible {
+.cadastro .container form input:focus-visible {
   outline: none;
   padding-left: 1rem;
 }
 
-.cadastro .container .cadastro-email form button {
+.cadastro .container form button {
   width: 40%;
-  height: 2.5rem;
+  height: 3rem;
   border-radius: 50px;
   background: linear-gradient(to right, var(--cyan-action), var(--blue-action));
   color: var(--white);
@@ -322,12 +324,12 @@ article .container .redes .rede-profile .rede-profile-info p {
   justify-content: center;
   align-items: center;
 }
-.cadastro .container .cadastro-email form button {
+.cadastro .container form button {
   font-size: 0.9rem;
   padding: 1rem;
 }
 
-.cadastro .container .cadastro-email button:hover {
+.cadastro .container button:hover {
   background: var(--cyan-action);
   cursor: pointer;
 }
@@ -346,7 +348,6 @@ footer .container {
 footer .container nav {
   display: flex;
   flex-direction: column;
-
   padding: 5rem 0rem 5rem 0;
 }
 
@@ -356,43 +357,43 @@ footer .container nav .loc {
   gap: 10rem;
   margin-top: 2rem;
 }
-footer .container nav .inf {
+footer .container nav .loc .inf {
   display: flex;
   gap: 10rem;
   flex-wrap: wrap;
 }
 
-footer .container nav .loc .inf-loc {
+footer .container nav .loc .inf .inf-loc {
   color: var(--white);
-  max-width: 19rem;
-  font-size: 0.8rem;
+  max-width: 25rem;
+  font-size: 1.1rem;
   display: flex;
 }
 
-footer .container nav .loc .info-loc::before {
+footer .container nav .loc .inf .inf-loc::before {
   content: url(../imagens/icon-location.svg);
   padding-right: 1rem;
 }
 
-footer .container nav .loc .phone {
+footer .container nav .loc .inf .phone {
   color: var(--white);
   display: flex;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
-footer .container nav .loc .phone::before {
+footer .container nav .loc .inf .phone::before {
   content: url(../imagens/icon-phone.svg);
   padding-right: 1rem;
 }
 
-footer .container nav .loc .email {
+footer .container nav .loc .inf .email {
   color: var(--white);
   display: flex;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 0.7rem;
 }
 
-footer .container nav .loc .email::before {
+footer .container nav .loc .inf .email::before {
   content: url(../imagens/icon-email.svg);
   padding-right: 1rem;
 }
@@ -402,13 +403,13 @@ footer .container nav .loc .nav {
   gap: 3rem;
 }
 
-footer .container .loc .nav ul li {
+footer .container nav .loc .nav ul li {
   margin-bottom: 0.7rem;
 }
 
 footer .container nav .loc .nav ul li a {
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 footer .container nav .loc .nav ul li a:hover {
@@ -427,8 +428,9 @@ footer .container nav .loc .redes-sociais a i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 footer .container nav .loc .redes-sociais a i:hover {

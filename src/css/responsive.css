@@ -1,167 +1,170 @@
-@media(max-width: 795px){
-    header .container{
-        padding: 1.2rem ;
-        
-    }
+@media (max-width: 795px) {
+  header .container {
+    padding: 1.2rem;
+  }
 
-    header .container .logo img{
-        width: 50%;
-        height: auto;
-    }
+  header .container .logo img {
+    width: 50%;
+    height: auto;
+  }
 
-    header .container ul{
-        gap: 1rem;
-        padding: 0;
-    }
+  header .container ul {
+    gap: 2rem;
+  }
 
-    header .container ul li a{
-        font-size: 0.7rem;
-       
-    }
-    
-    
-    
-    .intro .container {
-        background: url(../imagens/bg-curvy-mobile.svg) no-repeat bottom;
-        background-size: contain;
-        background-color: var(--dark-blue-intro-email);
-        width: 100%;    
-    }
-    
-    .intro .container .inf-intro{
-        margin: 0;
-    }
+  header .container ul li a {
+    font-size: 1rem;
+  }
 
-    .intro .container .inf-intro h2{
-        max-width: 20rem;
-        font-size: 1.5rem;
-        
-        
-    }
+  .intro {
+    background: url(../imagens/bg-curvy-mobile.svg) no-repeat center,
+      linear-gradient(
+        to top,
+        var(--dark-blue-main) 0%,
+        var(--dark-blue-main) 35%,
+        var(--dark-blue-intro-email) 35%,
+        var(--dark-blue-intro-email) 100%
+      );
+    background-size: contain;
+    width: 100%;
+  }
 
-    .intro .container .inf-intro p{
-        font-size: 0.9rem;
-        max-width: 19rem;
-       
-    }
+  .intro .container .inf-intro {
+    margin: 0;
+  }
 
-    .access .container {
-        margin-top: 10rem;
-    }
-    
-    .access .container .services{
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-       
-    }
+  .intro .container .inf-intro h2 {
+    max-width: 28rem;
+    font-size: 2rem;
+  }
 
-    .access .container .services h3{
-        font-size: 1rem;
-    }
+  .intro .container .inf-intro p {
+    font-size: 1.2rem;
+    max-width: 25rem;
+  }
 
-    .access .container .services, .securyti, .collaboration, .files p{
-        max-width: 17rem;
-    }
+  .access .container {
+    margin-top: 10rem;
+  }
 
-   
+  .access .container .services {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
 
-    .productive .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5rem;
-        
-    }
-    
-    .productive .container .productive-info h2{
-        font-size: 1rem;
-        margin-top: 2rem;
-        
-    }
+  .access .container .services h3 {
+    font-size: 1.21rem;
+  }
 
-    .productive .container .productive-info p{
-        font-size: 0.75rem;
-        max-width: 17.5rem;
-    
-    }
+  .access .container .services p {
+    max-width: 20rem;
+  }
 
-    article .container{
-        display: flex;
-        flex-direction: column;
-        gap: 0rem;
-    }
+  .access .container .services .securyti p {
+    max-width: 23rem;
+  }
 
-    article .container .redes{
-        margin-left: 0;
-    }
+  .access .container .services .collaboration p {
+    max-width: 23rem;
+  }
+  .access .container .services .files p {
+    max-width: 23rem;
+  }
 
-    article .container .redes p{
-        font-size: 0.65rem;
-    }
+  .productive .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
 
-    article .container .cadastro .container{
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
+  .productive .container .imagen-productive img {
+    max-width: 70%;
+    height: auto;
+  }
 
-    .cadastro .container .cadastro-email h2{
-        font-size: 2rem;
-    }
+  .productive .container .productive-info h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    max-width: 100%;
+  }
 
-    .cadastro .container .cadastro-email p{
-       font-size: 1.4rem;
-       
-    }
+  .productive .container .productive-info p {
+    font-size: 1rem;
+    max-width: 23rem;
+  }
 
-    .cadastro .container .cadastro-email form{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .cadastro .container .cadastro-email form input{
-        width: 100%;
-        height: 3.5rem;
-    }
-    .cadastro .container .cadastro-email form button{
-        width: 100%;
-        height: 3.5rem;
-        margin-top: 1rem;
-    }
+  article .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
 
-  
+  article .container .redes {
+    margin: 3.5rem 0 0 -0.7rem;
+  }
 
-   
-    footer .container nav .loc{
-        margin-top: 2rem;
-        display: flex;
-        flex-direction: column;
-    }
-    footer .container nav .loc .inf{
-        display: flex;
-        flex-direction: column;
-    }
-    footer .container nav .loc .inf .inf-loc{
-        max-width: 16rem;
-    }
+  article .container .redes p {
+    font-size: 1.1rem;
+  }
 
-    footer .container nav .loc .nav{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin-top: 3rem;
-    }
-    footer .container nav .loc .redes-sociais{
-        display: flex;
-        justify-content: center;
-        
-    }
+  .cadastro .container {
+    max-width: 85%;
+  }
 
+  .cadastro .container .cadastro-inf h2 {
+    font-size: 2rem;
+  }
 
+  .cadastro .container .cadastro-inf p {
+    font-size: 1.35rem;
+  }
 
-  
+  .cadastro .container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .cadastro .container form input {
+    width: 100%;
+    height: 4rem;
+  }
+  .cadastro .container form button {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  footer .container nav .loc {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  footer .container nav .loc .inf {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  footer .container nav .loc .inf .inf-loc {
+    max-width: 22rem;
+  }
+
+  footer .container nav .loc .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  footer .container nav .loc .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
-
-
