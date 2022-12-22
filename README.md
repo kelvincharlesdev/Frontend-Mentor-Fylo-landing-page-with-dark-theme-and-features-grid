@@ -18,9 +18,9 @@
 ## Design
 
 
-## video de Funcionalidade
-   <video src="src/design/fylo.mp4" controls muted loop></video>
+## Gif de Funcionalidade
 
+ <img src="src/design/fylo-gif.gif">
 
 ## Autor
  GitHub: <a href="https://github.com/kelvincharlesdev">Kelvincharlesdev</a>  
